@@ -355,6 +355,17 @@ const validate = () => {
                     valid=true
                 }
             }
+        if(sla.value.severity_1_resolution_time == "" ||
+            sla.value.severity_1_response_time == "" ||
+            sla.value.severity_2_resolution_time == "" ||
+            sla.value.severity_2_response_time == "" ||
+            sla.value.severity_3_resolution_time == "" ||
+            sla.value.severity_3_response_time == "" ||
+            sla.value.severity_4_resolution_time == "" ||
+            sla.value.severity_4_response_time == "" 
+        ){
+            valid = true
+        }else valid = false
     }
     else{
         valid=false
