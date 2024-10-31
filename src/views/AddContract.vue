@@ -370,6 +370,7 @@ const validate = () => {
     else{
         valid=false
     }
+    console.log('')
 
     // if(cm.value.cm_by!='' && pm.value.pm_by!='' && implementation.value.implementation_type!='') {
     //     if(Object.values(project.value).every(x=>x!='')){
